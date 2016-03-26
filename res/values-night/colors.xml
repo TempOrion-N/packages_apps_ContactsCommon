@@ -15,6 +15,11 @@
   -->
 
 <resources>
+	<!-- Orion night-mode colors -->
+	 <color name="system_primary_color">#21272b</color>
+	 <color name="system_secondary_color">#263238</color>
+	 <color name="system_accent_color">#80cbc4</color>
+	 	    
     <!-- Background color corresponding to the holo list 9-patch. -->
     <color name="holo_list_background_color">@*android:color/material_grey_850</color>
 
@@ -27,7 +32,7 @@
     <color name="primary_text_color">@color/dialtacts_primary_text_color</color>
 
     <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
-
+	
     <!-- Text color for section header. -->
     <color name="section_header_text_color">#b3ffffff</color>
 
@@ -38,16 +43,16 @@
     <color name="secondary_header_separator_color">#0fffffff</color>
 
     <!-- Color of the theme of the People app -->
-    <color name="people_app_theme_color">#363636</color>
+    <color name="people_app_theme_color">@color/system_primary_color</color>
 
     <!-- Color of the theme of the Dialer app -->
-    <color name="dialtacts_theme_color">#606060</color>
+    <color name="dialtacts_theme_color">@color/system_primary_color</color>
 
     <!-- Color of image view placeholder. -->
     <color name="image_placeholder">#222222</color>
 
     <!-- Primary text color in the Phone app -->
-    <color name="dialtacts_primary_text_color">#ffffff</color>
+    <color name="dialtacts_primary_text_color">#ffffffff</color>
 
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_secondary_text_color">#b3ffffff</color>
@@ -114,17 +119,17 @@
     <color name="quickcontact_default_photo_tint_color_dark">#455A64</color>
 
 
-    <color name="letter_tile_default_color">@*android:color/material_grey_800</color>
+    <color name="letter_tile_default_color">#ffffffff</color>
 
     <color name="letter_tile_font_color">#ffffff</color>
 
     <!-- Background color of action bars. Ensure this stays in sync with packages/Telephony
          actionbar_background_color. -->
-    <color name="actionbar_background_color">#606060</color>
+    <color name="actionbar_background_color">@color/system_secondary_color</color>
     <!-- Color for icons in the actionbar -->
     <color name="actionbar_icon_color">#ffffff</color>
     <!-- Darker version of the actionbar color. Used for the status bar and navigation bar colors. -->
-    <color name="actionbar_background_color_dark">#606060</color>
+    <color name="actionbar_background_color_dark">@color/system_secondary_color</color>
 
     <color name="tab_ripple_color">@color/tab_accent_color</color>
     <color name="tab_accent_color">#ffffff</color>
@@ -141,7 +146,7 @@
     <!-- Text color of the search box text as entered by user  -->
     <color name="searchbox_text_color">#ffffffff</color>
     <!-- Background color of the search box -->
-    <color name="searchbox_background_color">@android:color/black</color>
+    <color name="searchbox_background_color">@color/system_secondary_color</color>
 
     <color name="searchbox_hint_text_color">#ffeeeeee</color>
     <color name="searchbox_icon_tint">@color/searchbox_hint_text_color</color>
@@ -149,6 +154,6 @@
     <color name="search_shortcut_icon_color">@color/searchbox_hint_text_color</color>
 
     <!-- Color of the background of the contact detail and editor pages -->
-    <color name="background_primary">@*android:color/material_grey_850</color>
-    <color name="contact_all_list_background_color">@*android:color/material_grey_850</color>
+    <color name="background_primary">@color/system_primary_color</color>
+    <color name="contact_all_list_background_color">@color/system_secondary_color</color>
 </resources>
